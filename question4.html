@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Fun WE Charity Trivia</title>
+    <link rel="stylesheet"
+    <link href = "styling.css">
+</head>
+
+<h1 style = "color: blue;">Fun WE Charity Trivia</h1>
+<h2 style = "color: blue;">Play our fun charity trivia! Click the next button to move to a different question!</h2>
+
+<body style = "background: url(https://i.ytimg.com/vi/A1MPiFf0gfo/maxresdefault.jpg)">
+
+
+<p>Who is the leader of the WE Charity?</p>
+<input type = "radio" name = charitycreation4>                      Scott Baker<br>
+<input type = "radio" name = charitycreation4>                                          Victor Li<br>
+<input type = "radio" id = "correctanswer4" name = charitycreation4>                                          Roxanne Joyal<br>
+<input type = "radio" name = charitycreation4>                                          Marcus Kielburger<br>
+
+<input type = "submit" value = "Submit" name = "submit" onclick ="result()">
+
+
+<script language="javascript">
+    function result() {
+        if(document.getElementById('correctanswer4').checked)
+        {   alert("You answered correctly.");
+        }
+        else
+        {   alert("You answered incorrectly.");
+        }
+}   
+
+</script>
+
+<button class = "next1button">
+    <p1><a href = "question5.html">Next Question</a></p1>
+</button>
+
